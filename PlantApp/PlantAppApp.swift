@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct PlantAppApp: App {
+    
+    @StateObject var onboardingViewModel = OnboardingViewModel()
+    @AppStorage("hasCompletedOnboarding") var hasCompletedOnboarding: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if hasCompletedOnboarding {
+                HomeView()
+            } else {
+                OnboardingView(onboardingViewModel: onboardingViewModel)
+            }
         }
     }
 }
