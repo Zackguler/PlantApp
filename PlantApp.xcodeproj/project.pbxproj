@@ -7,30 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A120B3032B6D17D7008D13EB /* PlantAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3022B6D17D7008D13EB /* PlantAppApp.swift */; };
-		A120B3052B6D17D7008D13EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3042B6D17D7008D13EB /* ContentView.swift */; };
+		A120B3032B6D17D7008D13EB /* PlantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3022B6D17D7008D13EB /* PlantApp.swift */; };
 		A120B3072B6D17F0008D13EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A120B3062B6D17F0008D13EB /* Assets.xcassets */; };
 		A120B30A2B6D17F0008D13EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A120B3092B6D17F0008D13EB /* Preview Assets.xcassets */; };
 		A120B3192B6D200A008D13EB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3182B6D200A008D13EB /* Category.swift */; };
 		A120B31B2B6D2199008D13EB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B31A2B6D2199008D13EB /* Question.swift */; };
 		A120B31E2B6D2265008D13EB /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B31D2B6D2265008D13EB /* APIService.swift */; };
 		A120B3202B6D2326008D13EB /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B31F2B6D2326008D13EB /* OnboardingViewModel.swift */; };
-		A120B3222B6D26C1008D13EB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3212B6D26C1008D13EB /* OnboardingView.swift */; };
-		A120B3242B6D28BB008D13EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3232B6D28BB008D13EB /* HomeView.swift */; };
+		A120B3222B6D26C1008D13EB /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3212B6D26C1008D13EB /* OnboardingScreen.swift */; };
+		A120B3242B6D28BB008D13EB /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3232B6D28BB008D13EB /* HomeScreen.swift */; };
+		A120B3262B6D2F1E008D13EB /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3252B6D2F1E008D13EB /* WelcomeScreen.swift */; };
+		A120B3282B6D37BC008D13EB /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3272B6D37BC008D13EB /* CustomText.swift */; };
+		A120B32D2B6D4F1E008D13EB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B32C2B6D4F1E008D13EB /* Extensions.swift */; };
+		A120B32F2B6D5064008D13EB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B32E2B6D5064008D13EB /* CustomButton.swift */; };
+		A120B3462B6D9C1D008D13EB /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A120B3412B6D9C1D008D13EB /* Rubik-Black.ttf */; };
+		A120B3472B6D9C1D008D13EB /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A120B3422B6D9C1D008D13EB /* Rubik-Medium.ttf */; };
+		A120B3482B6D9C1D008D13EB /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A120B3432B6D9C1D008D13EB /* Rubik-Light.ttf */; };
+		A120B3492B6D9C1D008D13EB /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A120B3442B6D9C1D008D13EB /* Rubik-Bold.ttf */; };
+		A120B34A2B6D9C1D008D13EB /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A120B3452B6D9C1D008D13EB /* Rubik-Regular.ttf */; };
+		A120B34C2B6DC183008D13EB /* TakeAPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B34B2B6DC183008D13EB /* TakeAPhotoView.swift */; };
+		A120B34E2B6DC1E4008D13EB /* CareGuidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B34D2B6DC1E4008D13EB /* CareGuidesView.swift */; };
+		A120B3502B6DC20B008D13EB /* GetPremiumScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B34F2B6DC20B008D13EB /* GetPremiumScreen.swift */; };
+		A120B3522B6F2D2B008D13EB /* PremiumCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3512B6F2D2B008D13EB /* PremiumCollectionView.swift */; };
+		A120B3542B6FD5E3008D13EB /* SubscriptionOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3532B6FD5E3008D13EB /* SubscriptionOptionView.swift */; };
+		A120B3562B6FD6F5008D13EB /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120B3552B6FD6F5008D13EB /* RadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A120B2FF2B6D17D7008D13EB /* PlantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A120B3022B6D17D7008D13EB /* PlantAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantAppApp.swift; sourceTree = "<group>"; };
-		A120B3042B6D17D7008D13EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A120B3022B6D17D7008D13EB /* PlantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantApp.swift; sourceTree = "<group>"; };
 		A120B3062B6D17F0008D13EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A120B3092B6D17F0008D13EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A120B3182B6D200A008D13EB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A120B31A2B6D2199008D13EB /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		A120B31D2B6D2265008D13EB /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		A120B31F2B6D2326008D13EB /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
-		A120B3212B6D26C1008D13EB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		A120B3232B6D28BB008D13EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A120B3212B6D26C1008D13EB /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		A120B3232B6D28BB008D13EB /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		A120B3252B6D2F1E008D13EB /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		A120B3272B6D37BC008D13EB /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		A120B32C2B6D4F1E008D13EB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A120B32E2B6D5064008D13EB /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		A120B3312B6D7F8E008D13EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A120B3412B6D9C1D008D13EB /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		A120B3422B6D9C1D008D13EB /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		A120B3432B6D9C1D008D13EB /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		A120B3442B6D9C1D008D13EB /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		A120B3452B6D9C1D008D13EB /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		A120B34B2B6DC183008D13EB /* TakeAPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeAPhotoView.swift; sourceTree = "<group>"; };
+		A120B34D2B6DC1E4008D13EB /* CareGuidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareGuidesView.swift; sourceTree = "<group>"; };
+		A120B34F2B6DC20B008D13EB /* GetPremiumScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPremiumScreen.swift; sourceTree = "<group>"; };
+		A120B3512B6F2D2B008D13EB /* PremiumCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumCollectionView.swift; sourceTree = "<group>"; };
+		A120B3532B6FD5E3008D13EB /* SubscriptionOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionOptionView.swift; sourceTree = "<group>"; };
+		A120B3552B6FD6F5008D13EB /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +92,14 @@
 		A120B3012B6D17D7008D13EB /* PlantApp */ = {
 			isa = PBXGroup;
 			children = (
+				A120B3022B6D17D7008D13EB /* PlantApp.swift */,
+				A120B3312B6D7F8E008D13EB /* Info.plist */,
+				A120B3292B6D4C4E008D13EB /* Extensions */,
 				A120B31C2B6D224D008D13EB /* Service */,
 				A120B3162B6D1E66008D13EB /* Resources */,
 				A120B3142B6D1E4C008D13EB /* Views */,
 				A120B3132B6D1E42008D13EB /* ViewModels */,
 				A120B3122B6D1E39008D13EB /* Models */,
-				A120B3022B6D17D7008D13EB /* PlantAppApp.swift */,
-				A120B3042B6D17D7008D13EB /* ContentView.swift */,
 				A120B3082B6D17F0008D13EB /* Preview Content */,
 			);
 			path = PlantApp;
@@ -103,8 +133,12 @@
 		A120B3142B6D1E4C008D13EB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A120B3212B6D26C1008D13EB /* OnboardingView.swift */,
-				A120B3232B6D28BB008D13EB /* HomeView.swift */,
+				A120B34B2B6DC183008D13EB /* TakeAPhotoView.swift */,
+				A120B34D2B6DC1E4008D13EB /* CareGuidesView.swift */,
+				A120B3512B6F2D2B008D13EB /* PremiumCollectionView.swift */,
+				A120B3532B6FD5E3008D13EB /* SubscriptionOptionView.swift */,
+				A120B3392B6D877E008D13EB /* Screens */,
+				A120B3382B6D8770008D13EB /* CustomViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +146,7 @@
 		A120B3162B6D1E66008D13EB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A120B3322B6D8193008D13EB /* Fonts */,
 				A120B3062B6D17F0008D13EB /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -123,6 +158,47 @@
 				A120B31D2B6D2265008D13EB /* APIService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		A120B3292B6D4C4E008D13EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A120B32C2B6D4F1E008D13EB /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A120B3322B6D8193008D13EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A120B3412B6D9C1D008D13EB /* Rubik-Black.ttf */,
+				A120B3442B6D9C1D008D13EB /* Rubik-Bold.ttf */,
+				A120B3432B6D9C1D008D13EB /* Rubik-Light.ttf */,
+				A120B3422B6D9C1D008D13EB /* Rubik-Medium.ttf */,
+				A120B3452B6D9C1D008D13EB /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A120B3382B6D8770008D13EB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A120B3552B6FD6F5008D13EB /* RadioButton.swift */,
+				A120B32E2B6D5064008D13EB /* CustomButton.swift */,
+				A120B3272B6D37BC008D13EB /* CustomText.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A120B3392B6D877E008D13EB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A120B34F2B6DC20B008D13EB /* GetPremiumScreen.swift */,
+				A120B3212B6D26C1008D13EB /* OnboardingScreen.swift */,
+				A120B3252B6D2F1E008D13EB /* WelcomeScreen.swift */,
+				A120B3232B6D28BB008D13EB /* HomeScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A120B3462B6D9C1D008D13EB /* Rubik-Black.ttf in Resources */,
+				A120B34A2B6D9C1D008D13EB /* Rubik-Regular.ttf in Resources */,
+				A120B3492B6D9C1D008D13EB /* Rubik-Bold.ttf in Resources */,
 				A120B30A2B6D17F0008D13EB /* Preview Assets.xcassets in Resources */,
+				A120B3482B6D9C1D008D13EB /* Rubik-Light.ttf in Resources */,
 				A120B3072B6D17F0008D13EB /* Assets.xcassets in Resources */,
+				A120B3472B6D9C1D008D13EB /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +276,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A120B3052B6D17D7008D13EB /* ContentView.swift in Sources */,
+				A120B3542B6FD5E3008D13EB /* SubscriptionOptionView.swift in Sources */,
 				A120B3202B6D2326008D13EB /* OnboardingViewModel.swift in Sources */,
 				A120B31E2B6D2265008D13EB /* APIService.swift in Sources */,
 				A120B31B2B6D2199008D13EB /* Question.swift in Sources */,
-				A120B3032B6D17D7008D13EB /* PlantAppApp.swift in Sources */,
-				A120B3242B6D28BB008D13EB /* HomeView.swift in Sources */,
+				A120B34E2B6DC1E4008D13EB /* CareGuidesView.swift in Sources */,
+				A120B3262B6D2F1E008D13EB /* WelcomeScreen.swift in Sources */,
+				A120B34C2B6DC183008D13EB /* TakeAPhotoView.swift in Sources */,
+				A120B3502B6DC20B008D13EB /* GetPremiumScreen.swift in Sources */,
+				A120B3032B6D17D7008D13EB /* PlantApp.swift in Sources */,
+				A120B32D2B6D4F1E008D13EB /* Extensions.swift in Sources */,
+				A120B3562B6FD6F5008D13EB /* RadioButton.swift in Sources */,
+				A120B3242B6D28BB008D13EB /* HomeScreen.swift in Sources */,
+				A120B32F2B6D5064008D13EB /* CustomButton.swift in Sources */,
 				A120B3192B6D200A008D13EB /* Category.swift in Sources */,
-				A120B3222B6D26C1008D13EB /* OnboardingView.swift in Sources */,
+				A120B3522B6F2D2B008D13EB /* PremiumCollectionView.swift in Sources */,
+				A120B3222B6D26C1008D13EB /* OnboardingScreen.swift in Sources */,
+				A120B3282B6D37BC008D13EB /* CustomText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +429,7 @@
 				DEVELOPMENT_TEAM = 855SF9939H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlantApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -368,6 +459,7 @@
 				DEVELOPMENT_TEAM = 855SF9939H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlantApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

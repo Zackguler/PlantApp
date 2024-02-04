@@ -10,7 +10,7 @@ import Combine
 
 class APIService {
     static let shared = APIService()
-
+    
     func fetchCategories() -> AnyPublisher<[Category], Error> {
         let url = URL(string: "https://dummy-api-jtg6bessta-ey.a.run.app/getCategories")!
         return URLSession.shared.dataTaskPublisher(for: url)
@@ -19,7 +19,7 @@ class APIService {
             .receive(on: RunLoop.main)
             .eraseToAnyPublisher()
     }
-
+    
     func fetchQuestions() -> AnyPublisher<[Question], Error> {
         let url = URL(string: "https://dummy-api-jtg6bessta-ey.a.run.app/getQuestions")!
         return URLSession.shared.dataTaskPublisher(for: url)
