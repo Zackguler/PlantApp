@@ -1,0 +1,61 @@
+//
+//  Extensions.swift
+//  PlantApp
+//
+//  Created by Semih Güler on 2.02.2024.
+//
+
+import SwiftUI
+
+extension Color {
+    static var black1: Color {
+        Color(red: 19.0/255.0, green: 35.0/255.0, blue: 27.0/255.0, opacity: 1.0)
+    }
+    static var black2: Color {
+        Color(red: 19.0/255.0, green: 35.0/255.0, blue: 27.0/255.0, opacity: 0.7)
+    }
+    static var green1: Color {
+        Color(red: 40.0/255.0, green: 175.0/255.0, blue: 110.0/255.0, opacity: 1.0)
+    }
+    static var gray1: Color {
+        Color(red: 89.0/255.0, green: 113.0/255.0, blue: 101.0/255.0, opacity: 0.7)
+    }
+    static var gray2: Color {
+        Color(red: 19.0/255.0, green: 35.0/255.0, blue: 27.0/255.0, opacity: 0.25)
+    }
+    static var white1: Color {
+        Color(red: 241.0/255.0, green: 241.0/255.0, blue: 241.0/255.0, opacity: 1)
+    }
+    static var white2: Color {
+        Color(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, opacity: 0.7)
+    }
+    static var white3: Color {
+        Color(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, opacity: 0.08)
+    }
+    static var white4: Color {
+        Color(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, opacity: 0.15)
+    }
+    static var white5: Color {
+        Color(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, opacity: 0.52)
+    }
+    static var white6: Color {
+        Color(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, opacity: 0.5)
+    }
+    static var darkGreen: Color {
+        Color(red: 16.0/255.0, green: 30.0/255.0, blue: 23.0/255.0, opacity: 1)
+    }
+}
+
+struct UnderlineTextModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .underline(true, color: .gray1)
+    }
+}
+
+extension View {
+    func underlineText() -> some View {
+        self.modifier(UnderlineTextModifier())
+    }
+}
+
