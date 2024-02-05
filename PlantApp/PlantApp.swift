@@ -9,13 +9,16 @@ import SwiftUI
 
 @main
 struct PlantApp: App {
-    @StateObject var onboardingViewModel = OnboardingViewModel()
     @AppStorage("hasCompletedOnboarding") var hasCompletedOnboarding: Bool = false
+    
+    init() {
+        configureTabBarAppearance()
+    }
     
     var body: some Scene {
         WindowGroup {
             if hasCompletedOnboarding {
-                HomeScreen()
+                TabBar()
             } else {
                 NavigationStack {
                     WelcomeScreen()
@@ -23,4 +26,15 @@ struct PlantApp: App {
             }
         }
     }
+    
+    func configureTabBarAppearance() {
+        let appearance = UITabBarAppearance()
+        appearance.backgroundColor = UIColor.white
+        UITabBar.appearance().standardAppearance = appearance
+        if #available(iOS 15.0, *) {
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+        }
+    }
 }
+
+

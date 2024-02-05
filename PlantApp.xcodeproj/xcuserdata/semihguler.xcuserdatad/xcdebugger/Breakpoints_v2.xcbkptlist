@@ -3,4 +3,54 @@
    uuid = "91EB2F66-7504-45BF-9EE7-A6D4AB06E4B8"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46B2E487-7AC8-4151-AD82-CEDA1D7AB024"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlantApp/ViewModels/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46B2E487-7AC8-4151-AD82-CEDA1D7AB024 - 732bfdc6039650ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlantApp.HomeViewModel.init() -&gt; PlantApp.HomeViewModel"
+                  moduleName = "PlantApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/semihguler/XcodeProjects/PlantApp/PlantApp/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "46B2E487-7AC8-4151-AD82-CEDA1D7AB024 - 732bfdc6039650ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlantApp.HomeViewModel.init() -&gt; PlantApp.HomeViewModel"
+                  moduleName = "PlantApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/semihguler/XcodeProjects/PlantApp/PlantApp/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
