@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: - QuestionModel
 struct Question: Codable, Identifiable {
     let id: Int
     let title, subtitle: String

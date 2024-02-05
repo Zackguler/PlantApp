@@ -65,7 +65,6 @@ struct GetPremiumScreen: View {
             
         }
         .background(Color.darkGreen)
-        
     }
 }
 
